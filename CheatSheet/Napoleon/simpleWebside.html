@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple website</title>
+    <link rel="stylesheet" type="text/css" href="simpleStylesheet.css" />
+</head>
+<body>
+    <article>
+        <h1>Your first Website</h1>
+        <p>Recreate this simple website using all the skills we learnt in the last couple of weeks.</p>
+        <div class="highlighted-text">
+            <p>You will need both HTML (be careful to use the proper structure!) and various CSS rules. This paragraph
+                has a lightgray <br/> background color and slightly rounded edges. Make sure the text does not protrude
+                from the background despite the <br/> rounded corners.
+            </p>
+        </div>
+        <p>Paragraphs which are siblings to a h1 which is a direct descendent of an article use bold font.</p>
+        <h1>Task 1</h1>
+        <section class="special-section">
+          <dl>
+              <dt><h1>General Body Rules</h1></dt>
+              <dd>
+                  <ul>
+                      <li>Uses a font without serifs</li>
+                      <li>Has a 10% margin all around</li>
+                      <li>All values have to be relative</li>
+                  </ul>
+              </dd>
+              <dt><br/>Some sections are highlighted:</dt>
+              <dd>
+                  <br/>
+                  <ul>
+                      <li>They have a green, dashed border</li>
+                      <li>A bit of padding</li>
+                      <li>Some top & bottom margins (but not left or right margins)</li>
+                  </ul>
+              </dd>
+          </dl>
+        </section>
+        <h1>Special List</h1>
+        <ul id="special-list">
+            <li>An unordered list in a section which directly succeeds another section</li>
+            <li>Uses circles as bullet points</li>
+            <li id="special-bullet-pont">Except for this one item which decided to use a square and color itself red</li>
+        </ul>
+    </article>
+    <section>
+        <h1>Heading in a section</h1>
+    </section>
+    <p>A h1 in a section uses italics. Those in an article do not.</p>
+    <p class="highlighted-text">This paragraph has a lightgray background color and slightly rounded edges.
+        The second time we need this logic... so? What are
+        you going to do?
+    </p>
+    <article>
+        <h1>Task 2</h1>
+        <h2>Some Enumerations</h2>
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>
+                Some nested values with Armenian numbers
+                <ol id="special-ordered-list">
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ol>
+            </li>
+        </ol>
+        <section class="special-section">
+            <h1>A History Lesson</h1>
+            <span>
+                Include the provided image. If the user hovers over it display its 'center' within an ellipse. <strong>
+                Also make sure that it has a width of at most 40%</strong>
+            </span>
+            <div><img id="napoleon" src="napoleon.jpg"></div>
+            <a id="napoleon-link"
+                href="https://en.wikipedia.org/wiki/Napoleon" >Click here to learn more about Napoleon in Wikipedia.
+            </a>
+            <span>
+                The previous link is colored red instead of blue, not underlined and will not
+                change its styling after the user visited it
+            </span>
+
+        </section>
+
+    </article>
+</body>
+</html>

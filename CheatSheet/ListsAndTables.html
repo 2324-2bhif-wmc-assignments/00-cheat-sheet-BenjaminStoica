@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists and Tables</title>
+    <link rel="stylesheet" href="ArticleStyle.css">
+    <link rel="stylesheet" href="ListsAndTablesStyle.css">
+</head>
+<body>
+    <h1>Lists</h1>
+    <section>
+        There are three types of Lists in HTML
+        <ul>
+            <li>Unordered Lists</li>
+            <li>Ordered Lists</li>
+            <li>Description Lists</li>
+        </ul>
+        <h1>Unordered Lists</h1>
+        <ul>
+            <li>This is a list item</li>
+            <li>This is another</li>
+            <li>And one more</li>
+        </ul>
+        You can also change the bullet points if you want:<br/><br/>
+        You can use:
+        <ul>
+            <li id ="square-list-item">Other Forms / Symbols</li>
+            <li class="colored-list-item"><span>Colored Symbols</span></li>
+            <li id ="image-list-item">And even images</li>
+        </ul>
+        <h1>Ordered Lists</h1>
+        <ol>
+            <li>This is the first item</li>
+            <li>This is the second item</li>
+            <li>And this is the third item</li>
+        </ol>
+        You can also change the enumerations if you want:<br/><br/>
+        You can use:
+        <ol>
+            <li class="colored-list-item"><span>Colored enumerations</span></li>
+            <li id="armenian-enumeration">Numbers of other countries</li>
+            <li id="enumeration-with-leading-zero">And numbers with a leading zero</li>
+        </ol>
+        <h1>Description Lists</h1>
+        <dl>
+            <dt>This is the first Item</dt>
+            <dd>This is the description of the first item</dd>
+            <dt>This is the second item</dt>
+            <dd>This is the description of the second item</dd>
+            <dt>This is the third item</dt>
+            <dd>This is the description of the third item</dd>
+        </dl>
+        You can customize descriptions and items of a description lists with the previously mentioned methods
+    </section>
+    <h1>Tables</h1>
+    <section class="last-section">
+        <img  id="table-code-image" src="pictures/CodeScreenshots/Screenshot%20(44).png" alt="code">
+        <table>
+            <thead>
+                <tr><th colspan = "3">Grade Table</th>
+                <tr>
+                    <th>Name</th>
+                    <th>LName</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Max</td><td>Muster</td><td>1</td></tr>
+                <tr><td>Ute</td><td>Lap</td><td>4</td></tr>
+                <tr><td>Lena</td><td>Zwitsch</td><td>2</td></tr>
+                <tr><td>Tom</td><td>Tomson</td><td>5</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2">Average</td><td></td></tr>
+                <tr><td colspan="3">Grade List End</td></tr>
+            </tfoot>
+        </table>
+    </section>
+    <p>more about lists here: <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">https://www.w3schools.com</a></p>
+    <p>more about tables here: <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">https://www.w3schools.com/</a></p>
+    <a href="CheatSheet.html">Return to previous</a>
+</body>
+</html>
