@@ -1,25 +1,27 @@
-a{
-    color: lightgrey;
-    text-decoration: none;
-    transition: 0.7s;
-}
-
-a:hover{
-    color: mediumpurple;
-}
-
 body{
     background: rgb(13, 17, 23);
     color: lightgrey;
     font-family: sans-serif;
 }
 
+.footer{
+    border: solid 0.2rem rgb(13, 17, 23);
+    border-top-color: rgb(30, 34, 47);
+    margin: 2rem;
+}
 
-.last-section, h1{
-    border-style: solid;
-    border-color: rgb(13, 17, 23);
-    border-bottom-color: rgb(33, 38, 45);
-    border-width: 0.1rem;
+.footer > a > img{
+    position: sticky;
+    width: 5em;
+    margin: 2rem;
+    transition: 0.5s;
+}
+
+.footer-special > a >img{
+        position: sticky;
+        width: 4.5em;
+        margin: 2rem;
+        transition: 0.5s;
 }
 
 .nested-list{

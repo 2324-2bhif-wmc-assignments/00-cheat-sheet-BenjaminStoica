@@ -116,7 +116,22 @@ img {
     margin-top: 5rem;
     margin-bottom: 0.1rem;
     font-size: 5rem;
-    transition: 1s;
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+    /* Clip Background Image */
+
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    transform: translate3d(0rem, 0rem, 0rem);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
 }
 
 #mastership-button > a:hover{
@@ -137,6 +152,7 @@ img {
 
 #small-text{
     margin-top: 0.2rem;
+    animation: lights 5s 750ms linear infinite;
 }
 
 #this-website-button > a:hover
