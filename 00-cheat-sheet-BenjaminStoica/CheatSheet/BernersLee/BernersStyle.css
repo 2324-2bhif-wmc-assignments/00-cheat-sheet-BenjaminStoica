@@ -1,0 +1,70 @@
+html{
+    background-image: url("background.png");
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+table {
+    border: solid black 0.1rem;
+    border-radius: 0.5rem;
+}
+
+th ,td{
+    border: solid black 0.1rem;
+}
+
+#berners-lee {
+    border-radius: 10%;
+    margin-right: 10%;
+    margin-top: 8%;
+    opacity: 1;
+    float: right;
+    width: 12rem;
+}
+
+
+#cool-text {
+    font-style: italic;
+    padding-bottom: 3%;
+}
+
+#highlighted-blue {
+    color: blue;
+}
+
+#inserted-list {
+    list-style-type: square;
+}
+
+#link {
+    text-decoration: none;
+    color: green;
+}
+
+#main-header {
+    font-size: 1.7rem;
+    padding-top: 3%;
+}
+
+#main-list {
+    list-style-type: circle;
+}
+
+#main-page {
+    background: rgba(255, 255, 255,0.5);
+    margin: 3%;
+    padding-left: 5%;
+    font-family: sans-serif;
+}
+
+#organisation {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+#personal-information {
+    font-size: 1.1rem;
+}

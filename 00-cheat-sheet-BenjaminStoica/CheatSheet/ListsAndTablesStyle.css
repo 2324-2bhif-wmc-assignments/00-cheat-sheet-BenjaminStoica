@@ -1,0 +1,51 @@
+#armenian-enumeration{
+    list-style-type: armenian;
+}
+
+.colored-list-item{
+    color: mediumpurple;
+}
+
+dl > dd + dt{
+    padding-bottom: 0.4rem;
+}
+
+#enumeration-with-leading-zero{
+    list-style-type: decimal-leading-zero;
+}
+
+#image-list-item{
+    list-style-image:url("pictures/check.png");
+}
+
+span{
+    color: lightgrey;
+}
+
+#square-list-item{
+    list-style-type: square;
+}
+
+#table-code-image{
+    width: 25rem;
+    float: right;
+    margin-right: 30rem;
+}
+
+table,tr,th, td{
+    border-color: lightgrey;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 0.1rem;
+    padding: 0.3rem;
+}
+
+tbody{
+    background-color:coral;
+}
+
+thead,tfoot{
+    background-color: cornflowerblue;
+    color: lightgrey;
+}

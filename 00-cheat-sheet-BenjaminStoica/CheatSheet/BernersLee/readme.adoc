@@ -1,0 +1,21 @@
+:nofooter:
+:icons: font
+:data-uri: aria
+
+= A Website about T. Berners-Lee
+
+You are expected to recreate the website shown below as exactly as possible.
+To do that use the HTML elements and CSS rules & properties we have discussed so far -- you might also have to research one 'new' property for the background.
+Two images, for the portrait and the background, have been provided together with the assignment.
+The links should direct the user to the respective Wikipedia pages.
+
+**Be very precise and careful** -- there are several 'tiny' details you have to get right.
+For example:
+
+* Don't forget about the title
+* The list symbols are not default
+* The link to CERN has been visited already
+* The font is in the `Lucida Sans` family
+* ...
+
+image::pics/sample_page.png[Demo Page]
