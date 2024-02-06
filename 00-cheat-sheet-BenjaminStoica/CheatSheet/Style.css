@@ -1,0 +1,149 @@
+a:hover
+{
+    cursor: pointer;
+}
+
+#advanced-css-button{
+    margin-right:6rem;
+}
+
+#advanced-css-button > a:hover{
+    color: rgb(253, 231, 203);;
+}
+
+#app-picture{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+body {
+    background: rgb(13, 17, 23);
+}
+
+#bootstrap-button{
+    margin-right:9rem;
+    margin-left: 8rem;
+}
+
+#bootstrap-button > a:hover
+{
+    color: rgb(188, 127, 224);
+}
+
+#bootstrap-picture{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+#box-picture{
+    margin-right: 5rem;
+}
+
+button{
+    font-size: 1rem;
+    border: none;
+    margin-left: 1.3rem;
+    background: rgb(13, 17, 23);
+}
+
+button > a{
+    color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+#basics-button{
+    margin-right:5.5rem;
+    margin-left: 6.5rem;
+}
+
+#basics-button > a:hover{
+    color: rgb(0, 219, 170);
+}
+
+#coding-picture{
+    margin-right: 5rem;
+}
+
+#container-for-header{
+    text-align: center;
+    color: lightgrey;
+    font-family: sans-serif;
+    margin-bottom: 4rem;
+}
+
+.container-for-pictures{
+    height: fit-content;
+    margin: 1rem;
+}
+
+#css-picture{
+    margin-right: 5rem;
+}
+
+#first-row{
+    margin-bottom: 5rem;
+}
+
+#flex-box-button{
+    margin-right: 7rem;
+}
+
+#flex-box-button > a:hover
+{
+    color: rgb(195, 140, 105);
+}
+
+img {
+    width: 10rem;
+}
+
+#list-picture{
+    margin-right: 5rem;
+}
+
+#lists-tables-button{
+    margin-right:6.5rem;
+}
+
+#lists-tables-button > a:hover{
+    color: rgb(250, 96, 80);
+
+}
+
+#main-header{
+    margin-top: 5rem;
+    margin-bottom: 0.1rem;
+    font-size: 5rem;
+    transition: 1s;
+}
+
+#mastership-button > a:hover{
+    color: rgb(78, 200, 253);
+}
+
+#other-websites-button{
+    margin-right: 6.5rem;
+}
+
+#other-websites-button > a:hover{
+    color: rgb(233, 185, 22);
+}
+
+#second-row{
+    margin-bottom: 5rem;
+}
+
+#small-text{
+    margin-top: 0.2rem;
+}
+
+#this-website-button > a:hover
+{
+    color: rgb(251, 0, 58);
+}
+
+
+
+

@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    margin: 10%;
+}
+
+article h1 ~ p ,div{                                             /*rework later*/
+    font-weight: bold;
+}
+
+.highlighted-text {
+    background-color: lightgrey;
+    width: 58rem;
+    border-radius: 0.3rem;
+    padding-right: 0.5rem;
+    padding-left: 0.3rem;
+}
+
+.special-section {
+    border: dashed 0.18rem green;
+    padding: 0.5rem;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 57rem;
+}
+
+#special-list {
+    list-style-type: circle;
+}
+
+#special-bullet-pont {
+    list-style-type: square;
+    color: red;
+}
+
+
+#special-ordered-list {
+    list-style-type: armenian;
+}
+
+#napoleon {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 35%;
+}
+
+
+#napoleon:hover {
+    border-radius: 10rem;
+}
+#napoleon-link {
+    text-decoration: none;
+    color: red;
+}
